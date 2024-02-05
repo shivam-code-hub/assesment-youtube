@@ -1,0 +1,10 @@
+DB_USER=xxxx
+DB_PASSWORD=xxxx
+DB_NAME=xxxx
+DB_HOST=xxxxx
+DB_PORT=3306
+
+YOUTUBE_API_KEY_1=xxxxxxxxxxxxxxx
+YOUTUBE_API_KEY_2=xxxxxxxxxxxxxxx
+YOUTUBE_API_KEY_3=xxxxxxxxxxxxxxx
+YOUTUBE_SEARCH_QUERY=cricket
