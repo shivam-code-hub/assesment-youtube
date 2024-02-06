@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "be6b522f-fc78-4032-8a01-cb81d8b3eb4f",
+		"name": "Fampay-Youtube",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31853353"
+	},
+	"item": [
+		{
+			"name": "search video",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/search?query=ball",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "ball"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get videos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/videos?page=1&limit=20",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"videos"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
