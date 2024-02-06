@@ -1,9 +1,9 @@
 GIN_MODE=release
 APP_PORT=8080
 
-YOUTUBE_API_KEY_1=xxxxxxxxxxxxxxxxxxxxxxxx
-YOUTUBE_API_KEY_2=xxxxxxxxxxxxxxxxxxxxxxxx
-YOUTUBE_API_KEY_3=xxxxxxxxxxxxxxxxxxxxxxxx
+YOUTUBE_API_KEY_1=AIzaSyBQo-n57Lmd4THVZhY2ZdeQoTFt3ZeWVJo
+YOUTUBE_API_KEY_2=AIzaSyCtZety3TQ-XAGdeDPL4B0hjbHR1-9vGAY
+YOUTUBE_API_KEY_3=AIzaSyB-zriPuYYO6mzaA1YB9B6om_g5XUfe3Wo
 
 YOUTUBE_SEARCH_QUERY=cricket
 
