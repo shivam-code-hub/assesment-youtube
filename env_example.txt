@@ -1,10 +1,16 @@
-DB_USER=xxxx
-DB_PASSWORD=xxxx
-DB_NAME=xxxx
-DB_HOST=xxxxx
-DB_PORT=3306
+GIN_MODE=release
+APP_PORT=8080
 
-YOUTUBE_API_KEY_1=xxxxxxxxxxxxxxx
-YOUTUBE_API_KEY_2=xxxxxxxxxxxxxxx
-YOUTUBE_API_KEY_3=xxxxxxxxxxxxxxx
+YOUTUBE_API_KEY_1=xxxxxxxxxxxxxxxxxxxxxxxx
+YOUTUBE_API_KEY_2=xxxxxxxxxxxxxxxxxxxxxxxx
+YOUTUBE_API_KEY_3=xxxxxxxxxxxxxxxxxxxxxxxx
+
 YOUTUBE_SEARCH_QUERY=cricket
+
+DB_HOST=db
+DB_PORT=3306
+DB_USER=root
+DB_PASS=password
+DB_NAME=youtube
+DB_CHARSET=utf8mb4
+DB_LOC=Local

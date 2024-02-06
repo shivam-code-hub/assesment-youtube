@@ -29,7 +29,8 @@ func GetVideos(c *gin.Context) {
 
 	db := connection.ConnectDatabase()
 
-	if err := db.Order("publishing_datetime desc").Limit(limitNumber).Offset(offset).Find(&videos); err != nil {
+	res := db.Order("publishing_datetime desc").Limit(limitNumber).Offset(offset).Find(&videos)
+	if res.Error != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Something went wrong"})
 		return
 	}
